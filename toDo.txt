@@ -11,9 +11,5 @@
         EACCESS. Permission denied. syscall symlink error
     *** Can't seem to get authorize to work. Either client deleted or not even initialized
 
-    Client ID: 1040011844258-u07e00c5bhvr54qn00o5ihr7tsofja3q.apps.googleusercontent.com
-    Client secret: sPTgshxY14ty9NyBs3Mu5XCy
-
-    API Key: AIzaSyDLAAwjEOQ9CXqN-irAX4abIkpfoVDAy8E 
 
 2. parse and insert cs events into calendar
