@@ -1,0 +1,4 @@
+1. Add Firebase Authentication to web app. (get user and password for google calendar and permissions)
+    Client: browser --> credentials --> server (Firebase). 
+    Validate --> give token to browser --> browser has access and display data
+2. parse and insert cs events into calendar

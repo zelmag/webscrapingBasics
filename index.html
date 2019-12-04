@@ -1,0 +1,30 @@
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+ 
+  <!-- Firebase Library! -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script> 
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAcpwjbsTCEqJHQmF7xb81MYyqXVuNi0UA",
+    authDomain: "game-guides-fee7b.firebaseapp.com",
+    databaseURL: "https://game-guides-fee7b.firebaseio.com",
+    projectId: "game-guides-fee7b",
+  };
+  // Initialize Firebase application on the backend
+  firebase.initializeApp(firebaseConfig);
+  const auth = firebase.auth();
+  auth.signInWithEmailAndPassword(email,pass);
+  const db = firebase.firestore();
+</script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="scripts/auth.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
