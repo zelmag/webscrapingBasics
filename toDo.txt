@@ -1,4 +1,19 @@
 1. Add Firebase Authentication to web app. (get user and password for google calendar and permissions)
     Client: browser --> credentials --> server (Firebase). 
     Validate --> give token to browser --> browser has access and display data
+
+    https://medium.com/@smccartney09/integrating-firebase-cloud-functions-with-google-calendar-api-9a5ac042e869
+    https://angularfirebase.com/lessons/google-calendar-api-with-firebase/#Add-the-Script-Google-APIs-Tag 
+
+    *** Next: Node js's require is undefined in the browser. It is a method by node js but not in browsers. Tried to download browserify but 
+    having a lot of trouble installing npm
+        default package manager for the JavaScript runtime environment Node.js.
+        EACCESS. Permission denied. syscall symlink error
+    *** Can't seem to get authorize to work. Either client deleted or not even initialized
+
+    Client ID: 1040011844258-u07e00c5bhvr54qn00o5ihr7tsofja3q.apps.googleusercontent.com
+    Client secret: sPTgshxY14ty9NyBs3Mu5XCy
+
+    API Key: AIzaSyDLAAwjEOQ9CXqN-irAX4abIkpfoVDAy8E 
+
 2. parse and insert cs events into calendar
